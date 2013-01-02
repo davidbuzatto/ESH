@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="ESHPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <class>esh.entidades.Area</class>
+    <class>esh.entidades.Campus</class>
+    <class>esh.entidades.Cidade</class>
+    <class>esh.entidades.ConfiguracoesGlobais</class>
+    <class>esh.entidades.ConfiguracoesLocais</class>
+    <class>esh.entidades.Curso</class>
+    <class>esh.entidades.Disciplina</class>
+    <class>esh.entidades.DisciplinaAlocada</class>
+    <class>esh.entidades.DisciplinaProfessor</class>
+    <class>esh.entidades.Disponibilidade</class>
+    <class>esh.entidades.DisponibilidadeAlocada</class>
+    <class>esh.entidades.Estado</class>
+    <class>esh.entidades.HoraAtividade</class>
+    <class>esh.entidades.HoraAtividadeModeloDisponibilidade</class>
+    <class>esh.entidades.HoraAtividadeTurnoHorario</class>
+    <class>esh.entidades.Horario</class>
+    <class>esh.entidades.Instituicao</class>
+    <class>esh.entidades.Licenca</class>
+    <class>esh.entidades.Log</class>
+    <class>esh.entidades.ModeloDisponibilidade</class>
+    <class>esh.entidades.Pais</class>
+    <class>esh.entidades.Predio</class>
+    <class>esh.entidades.Professor</class>
+    <class>esh.entidades.ProfessorCampus</class>
+    <class>esh.entidades.ProfessorInstituicao</class>
+    <class>esh.entidades.Sala</class>
+    <class>esh.entidades.SalaHoraAtividadeTurnoHorario</class>
+    <class>esh.entidades.SerieSemestreModulo</class>
+    <class>esh.entidades.TipoAtividade</class>
+    <class>esh.entidades.Turno</class>
+    <class>esh.entidades.TurnoHorario</class>
+    <class>esh.entidades.Usuario</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/esh"/>
+      <property name="javax.persistence.jdbc.password" value="root"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+    </properties>
+  </persistence-unit>
+</persistence>

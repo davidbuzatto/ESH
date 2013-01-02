@@ -1,0 +1,124 @@
+/*body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}*/
+
+.to_drag_disc {
+    border: solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+.to_drag_local {
+    border: solid 2px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+.to_drop_disc {
+    background: #F2F2F2;
+    border: #666 dashed 1px;
+    position: absolute;
+    z-index: 9;
+}
+
+.to_drop_local {
+    background: #F2F2F2;
+    border: #666 dashed 1px;
+    position: absolute;
+    z-index: 9;
+}
+
+.to_hr {
+    background: #F2F2F2;
+    border: #666 dashed 1px;
+    text-align: right;
+    vertical-align: middle;
+    position: absolute;
+    z-index: 9;
+}
+
+.removeDrag {
+    font-size: 5px;
+    font-weight: bolder;
+    background: #F00;
+    position: absolute;
+    right: 0px; 
+    top: 0px;
+    height: 8px;
+    width: 8px;
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+    opacity: 0.5;
+    display: none;
+}
+
+.ajudaDrag {
+    font-size: 5px;
+    font-weight: bolder;
+    background: #F00;
+    position: absolute;
+    right: 0px; 
+    bottom: 0px;
+    height: 8px;
+    width: 8px;
+    cursor: help;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0.5;
+}
+
+.divTooltip {
+    border: solid 2px;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    padding: 4px;
+    opacity: 0.8;
+    z-index: 20;
+}
+
+
+/**
+ * Tabela de usuários.
+ */
+.tdS {
+    background: url("../imagens/icones/user.png") no-repeat;
+}
+
+.tdG {
+    background: url("../imagens/icones/user_gray.png") no-repeat;
+}
+
+.tdCA {
+    background: url("../imagens/icones/user_green.png") no-repeat;
+}
+
+.tdCC {
+    background: url("../imagens/icones/user_orange.png") no-repeat;
+}
+
+.tdP {
+    background: url("../imagens/icones/user_suit.png") no-repeat;
+}
+
+.ativo {
+    font-weight: bold;
+    color: green;
+}
+
+.inativo {
+    font-weight: bold;
+    color: red;
+}

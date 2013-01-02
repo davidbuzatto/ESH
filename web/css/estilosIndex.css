@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.ui-widget { 
+    font-size: 12px;
+}

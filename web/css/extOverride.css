@@ -1,0 +1,14 @@
+/* Customização do color picker */
+.x-color-picker a {
+    padding: 1px
+}
+
+.x-color-picker em {
+    border: 0px;
+}
+
+.x-color-picker em span {
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+}
